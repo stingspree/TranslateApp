@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Prosto+One&display=swap');
+body{
+	font-family: 'Bungee Shade', cursive;
+	font-family: 'Cutive', serif;
+	font-family: 'Prosto One', cursive;
+}
+#home{
+	font-family: 'Bungee Shade', cursive;
+	font-family: 'Cutive', serif;
+	font-family: 'Lora', serif;
+	font-family: 'Prosto One', cursive;
+	font-weight: bolder;
+	font-size: 145%;
+}
+#about{
+	font-family: 'Bungee Shade', cursive;
+	font-family: 'Cutive', serif;
+	font-family: 'Lora', serif;
+	font-family: 'Prosto One', cursive;
+	font-weight: bolder;
+	font-size: 140%;
+}
+.header{
+	background-color: rgb(54, 81, 154);
+}
+.text{
+	padding: 15px;
+	border-radius: 10px;
+}
+#box{
+	display: grid;
+	position: absolute;
+	top: 15%;
+	margin: 15px;
+	background-color: white;
+	left: 25%;
+	right: 25%;
+	/* border: 2px solid black; */
+	grid-template-columns: 50% 50%;
+}
+.operation{
+	display: grid;
+	grid-template-columns: 17% 17% 66%;
+	height: 29px;
+}
+.volume{
+	color: rgb(55, 55, 145);
+	margin: 10%;
+	font-size: 1.2rem;
+	position: relative;
+	left: 20%;
+	top: 9%;
+}
+.clipboard{
+	margin-left: 50%;
+	font-size: 1.6rem;
+	color: gray;
+	position: relative;
+	right: 30%;
+	top: 12%;
+}
+.clipboard:hover{
+	color: black;
+	cursor: pointer;
+}
+.volume:hover{
+	color: black;
+	cursor: pointer;
+}
+.options{
+	position: relative;
+	right: 3%;
+	top: 9%;
+	font-size: 105%;
+	border: 0.1px solid rgb(149, 142, 142);
+}
+#leftlang{
+	display: grid;
+}
+#rightlang{
+	display: grid;
+}
+textarea{
+	font-size: 20px;
+}
+#translate{
+	background-color: rgb(164, 216, 233);
+	font-size: 1.3rem;
+	position: relative;
+	padding: 0px;
+	width: 200%;
+	height: 110%;
+	margin-top: 10px;
+	font-family: 'Bungee Shade', cursive;
+	font-family: 'Prosto One', cursive;
+	border: none;
+	box-shadow: 5px 4px 8px #888888;
+	border-radius: 5px;
+}
+#translate:hover{
+	cursor: pointer;
+	background-color: rgb(53, 53, 170);
+}
+#notification{
+    list-style: none;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    display: grid;
+    /* grid-template-rows: 50% 50%; */
+    width: 200px;
+}
+span{
+    font-family: 'Prosto One', cursive;
+    font-weight: bold;
+}
+.toast{
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding: 10px;
+    justify-content: space-between;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+@keyframes fadeOutAnimation{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#tick{
+    color: green;
+}
+#bug{
+    color: red;
+}
+#cross{
+    margin-left: 65%;
+    color: gray;
+}
+#cross:hover{
+    color: black;
+    cursor: pointer;
+}
+.success{
+    /* border: 2px solid green; */
+}
+.error{
+    /* border: 2px solid red; */
+}
+i{
+    font-size: 1.6rem;
+}
+span{
+    margin-right: 50%;
+    font-size: 140%;
+}
+.social-wrapper{
+	display: grid;
+	position:absolute;
+	/* border: 2px solid black; */
+	text-align: center;
+	width: 145%;
+	left: 30%;
+	grid-template-columns: 25% 25% 25% 25%;
+	align-items: center;
+	bottom: 65%;
+}
+#copyrigth{
+	position: relative;
+	left: 37%;
+	margin-top: 35px;
+	font-weight: bolder;
+}
+.logo{
+	width: 20px;
+	text-align: center;
+}
+#colophon{
+	position: absolute;
+	bottom: -210px;
+}

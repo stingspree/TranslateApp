@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Prosto+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light header">
+        <a class="navbar-brand" href="#" id="home">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" id="about">About <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+        </nav>
+    <div id="notification">
+        <!-- <div class="toast success">
+            <i class="fa-sharp fa-solid fa-thumbs-up" id="tick"></i>
+            <span>Success</span>
+            <i class="fa-sharp fa-solid fa-xmark" id="cross"></i>
+        </div>
+        <div class="toast error">
+            <i class="fa-sharp fa-solid fa-bug" id="bug"></i>
+            <span>Error</span>
+            <i class="fa-sharp fa-solid fa-xmark" id="cross"></i>
+        </div>  -->
+    </div>
+    <div id="box">
+        <div id="leftlang">
+            <textarea rows="15" cols="10" placeholder="Enter Text" id="lefttext" class="text"></textarea>
+            <div class="operation">
+                <i class="fas fa-volume-up volume" id="first"></i>
+                <i class="fa-regular fa-clipboard clipboard" id="left"></i>
+                <select class="options" id="leftoption">
+                <!-- option added by javascript -->
+                </select>
+            </div>
+        </div>
+        <div id="rightlang">
+            <textarea rows="15" cols="10" placeholder="Translation" id="righttext" class="text"></textarea>
+            <div class="operation">
+                <i class="fas fa-volume-up volume" id="second"></i>
+                <i class="fa-regular fa-clipboard clipboard" id="right"></i>
+                <select class="options" id="rightoption">
+                <!-- option added by javascript -->
+                </select>
+        </div>
+    </div>
+    <button id="translate">Translate</button>
+    <br>
+    <footer id="colophon">
+        <div class="social-wrapper">
+            <div id="twitter" class="logo">
+                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon" id="logoimg" width="34px" height="34px">
+            </div>
+            <div id="instagram" class="logo">
+                <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo" class="instagram-icon" id="logoimg" width="34px" height="34px">
+            </div>
+            <div id="google" class="logo">
+                <img src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/256/Google-plus-icon.png" alt="Googleplus Logo" class="googleplus-icon" id="logoimg" width="34px" height="34px">
+            </div>
+            <div id="facebook" class="logo">
+                <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon" id="logoimg" width="34px" height="34px">
+            </div>
+          </ul>
+        </div>
+        <div id="copyrigth">
+        <nav class="footer-nav" role="navigation" style="text-align: center;">
+          <p>Copyright &copy; 2022-
+             Tuhin Saha. All rights reserved.</p>
+        </nav>
+        </div>
+      </footer>
+      <!-- #colophon -->
+      
+      
+</body>
+<script src="/index.js"></script>
+</html>
